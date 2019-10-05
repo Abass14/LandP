@@ -20,8 +20,8 @@ section{
 
 .nav a:hover{
 	color: blue;
-	background-color: white;
-	border-bottom: 8px blue solid;
+	background-color: yellow;
+	border: 4px blue solid;
 }
 
 
@@ -31,16 +31,16 @@ section{
 }
 
 .logo a{
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .pad{
 	font-size: 20px;
 	padding-right: 50px;
 	text-align: center;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .sub-main1, .sub-main2, .img{
@@ -71,6 +71,23 @@ section{
 	background-color: rgba(2, 60, 135, 0.7);
 }
 
+
+.btn{
+	height: 50px !important;
+	width: 200px !important;
+}
+
+.main-back{
+	background-image: url("../images/model-Blake.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.img-back{
+	background-color: rgba(72, 11, 137, 0.7);
+	height: 400px;
+}
 
 
 @media only screen and (max-width: 450px) and (min-width: 100px)  {
